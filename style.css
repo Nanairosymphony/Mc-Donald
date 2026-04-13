@@ -1,0 +1,105 @@
+.kt{
+    text-align:center;
+}
+.menu a.now{
+    background-color:rgb(197, 22, 3);
+}
+.menu a{
+    background-color:#FFC72C;
+    border-radius: 10px;
+    display:block;
+    color:rgb(245, 245, 245);
+    text-decoration:none;
+    font-size:2rem;
+    padding:10px;
+    position:top;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.menu li{
+    list-style:none;
+    display:inline-block;
+    margin: 10px 10px;
+    width: 200px;
+}
+.top{
+    width:200px;
+    text-align: center;
+}
+.ms{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+.intro{
+    background-color: rgb(197, 22, 3);
+    color:aliceblue
+
+}
+.intro h1{
+    text-align: center;
+    font-size: 3rem;
+    padding:2rem 0 0 0;
+}
+.intro p{
+    font-size:1.5rem;
+    flex:1;
+    margin-right:20px;
+}
+.intro-content{
+    display:flex;
+    padding:10px 80px 30px;
+}
+.intro img{
+    width:60%;
+    height:60%;
+}
+.classic{
+    text-align:center;
+    font-size:4rem;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+.classic-content {
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin:50px auto 100px;
+    max-width:1800px;
+}
+.classic-img{
+    flex:4;    
+}
+
+.classic-info{
+    flex:6;
+    text-align: left;
+
+}
+.classic-info h1{
+    font-size:2em;
+}
+.classic-info p{
+    font-size:1.5em;
+    line-height :1.6em;
+
+}
+
+footer{
+    background-color: #FFC72C;
+    padding:6px;
+    font-size:1.2rem;
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
